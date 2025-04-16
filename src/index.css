@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Pacifio';
+  src: url('Pacifico-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'second';
+  src: url('PlaywriteMXGuides-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'allura';
+  src: url('Allura-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sofia';
+  src: url('Sofia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'courgette';
+  src: url('Courgette-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ body {
+  font-family: 'courgette', cursive;
+}  
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.custom-header h2 {
+  color: black !important; /* Белый цвет для текста */
+  text-transform: uppercase !important; /* Прописные буквы */
+}
+
+/* Глобальные стили или в файле App.css */
+.ant-layout-header {
+  background-color: #4A90E2 !important; 
+  text-decoration: black !important; 
+}
+
+.ant-layout-header h2 {
+  color: black !important; 
+  text-transform: uppercase !important; 
+}
+.custom-header {
+  background-color: #f9f9f9 !important;
+  color: black !important;
+  display: flex;
+  align-items: center;
+  font-family: 'sofia', cursive;
+}
+
+.custom-header img {
+  height: 40px;
+  margin-right: 16px;
+}
+
+.custom-header h2 {
+  margin: 0;
+  text-transform: uppercase;
+  color: black;
+} 

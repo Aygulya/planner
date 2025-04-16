@@ -1,0 +1,10 @@
+/* Стиль для кастомного класса */
+.custom-header {
+    background-color: #4A90E2 !important;  /* Новый цвет фона */
+  }
+  
+  .custom-header h2 {
+    color: #fff !important;  /* Белый цвет для текста */
+    text-transform: uppercase !important;  /* Прописные буквы */
+  }
+  
